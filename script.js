@@ -1,7 +1,6 @@
 function getComputerChoice(){
     let randomInt=((Math.random())+(Math.random()));
-    randomInt=Math.round(randomInt)
-    console.log(randomInt);
+    randomInt=Math.round(randomInt)+1;
     switch(randomInt){
         case 1:
             return "Rock";
@@ -14,18 +13,3 @@ function getComputerChoice(){
 function getHumanChoice(){
     return humanChoice=prompt("Rock, Paper, Or Scissors?").toLowerCase();
 }
-console.log(getComputerChoice());
-
-console.log(getComputerChoice());
-
-console.log(getComputerChoice());
-console.log(getComputerChoice());
-console.log(getComputerChoice());
-console.log(getComputerChoice());
-console.log(getComputerChoice());
-console.log(getComputerChoice());
-console.log(getComputerChoice());
-console.log(getComputerChoice());
-console.log(getComputerChoice());
-
-console.log(getComputerChoice());
