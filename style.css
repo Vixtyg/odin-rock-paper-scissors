@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1c1c1c;
+    margin: 0;
+    height: 100vh;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+#button {
+    background-color: black !important;
+    color: white;
+    width: 100px;
+    height: 30px;
+}
+
+#container {
+    margin: 0;
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.score-tab {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+.human-button,
+#computer-button {
+    background-color: #001eff;
+    border-radius: 10px;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: background-color 0.1s ease-in-out;
+    height: 20vw;
+}
+
+#human-button-container {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.playButton {
+    background-color: #1c1c1c;
+    transition: color 0.2s ease-in-out;
+    color: white;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    border: 0;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+#playButtonHover:hover {
+    color: #5e5b5b;
+    transition: color 0.2s ease-in-out;
+}
+
+#clickable:hover {
+    background-color: #031496;
+    border-radius: 10px;
+    width: 20vw;
+    height: 20vw;
+    transition: background-color 0.2s ease-in-out;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    user-select: none;
+}
+
+.flip-180 {
+    transform-origin: center;
+    transform: rotate(180deg) scaleY(-1);
+}
